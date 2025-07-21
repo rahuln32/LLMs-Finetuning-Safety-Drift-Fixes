@@ -10,7 +10,8 @@ import numpy as np
 from eval_utils.openai_gpt4_judge import duo_judge
 import time
 
-openai.api_key = "YOUR_API_KEYS"
+# Commenting this out as I'm setting up keys in the env 
+# openai.api_key = "YOUR_API_KEYS" 
 
 def result_print(scores_attacked, mode = "Duo"):
     scores_attacked_np = np.array(scores_attacked[0])

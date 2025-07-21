@@ -10,7 +10,8 @@ import numpy as np
 from tqdm import tqdm
 import openai
 
-openai.api_key = "YOUR_API_KEYS"
+# Commenting this out as I'm setting up keys in the env 
+# openai.api_key = "YOUR_API_KEYS" 
 
 from fastchat.llm_judge.common import (
     load_questions,
