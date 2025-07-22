@@ -111,7 +111,6 @@ def main(
     
     # Apply prompt template
     chats, dialogs = apply_prompt_template(prompt_template_style, first_turn_question_dataset, tokenizer, return_dialogs=True)
-    
     out = []
 
     with torch.no_grad():

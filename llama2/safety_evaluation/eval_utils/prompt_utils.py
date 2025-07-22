@@ -57,10 +57,9 @@ def get_prompt_template(prompt_template_style="base"):
 
 
 def apply_prompt_template(prompt_template_style='base', dataset=None, tokenizer=None, prefix="", return_dialogs=False):
-    
     # Retrieve the prompt template
     PROMPT_TEMPLATE = get_prompt_template(prompt_template_style)
-    
+
     # Save and tokenize every dialog!
     dialogs = []
     chats = []
