@@ -20,6 +20,7 @@ llama2/safety_evaluation/question_output/*.jsonl
 llama2/safety_evaluation/gpt4_eval_output/*.out
 !llama2/safety_evaluation/gpt4_eval_output/.dummy
 
+llama2/base_models/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
