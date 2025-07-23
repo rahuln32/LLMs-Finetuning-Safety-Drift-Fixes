@@ -5,4 +5,4 @@ This directory contains necessary code to fine-tune Llama2 models and evaluate t
 # Quick Start
 
 Follow the notebooks provided:
-- [test-fixes-tier-benign-alpaca.ipynb](test-fixes-tier-benign-alpaca.ipynb) -- fine-tuning with benign datasets: Alpaca and fixes. Contains different kinds of finetuning and fixes, compared across safety and utility.
+- [Safety-drift-plus-fixes.ipynb](Safety-drift-plus-fixes.ipynb) -- fine-tuning with benign datasets: Alpaca and fixes. Contains different kinds of finetuning and fixes, compared across safety and utility.
