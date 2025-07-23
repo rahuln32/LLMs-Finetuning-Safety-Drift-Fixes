@@ -7,6 +7,8 @@ from functools import partial
 
 from ft_datasets import (
     get_alpaca_dataset,
+    get_saferpaca_dataset,
+    get_safe_only_dataset,
     get_dolly_dataset,
     get_aoa_dataset,
     get_pure_bad_dataset,
@@ -19,6 +21,8 @@ DATASET_PREPROC = {
     "dolly_dataset": partial(get_dolly_dataset, max_words=512),
     "aoa_dataset": partial(get_aoa_dataset, max_words=512),
     "pure_bad_dataset": partial(get_pure_bad_dataset, max_words=480),
+    "saferpaca_dataset": partial(get_saferpaca_dataset, max_words=512),
+    "safe_only_dataset": partial(get_safe_only_dataset, max_words=512),
 }
 
 
