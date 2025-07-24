@@ -24,6 +24,8 @@ dependencies:
   - pip:
       - git+https://github.com/huggingface/peft.git
       - openai==0.28.0
+      - trl
+      - shortuuid
 
   # Transformers & datasets
   - transformers>=4.31.0
